@@ -4,9 +4,9 @@ import { getStoredScheme, setScheme } from "./index";
 
 export function ColorSchemeSelect() {
   const options = [
-    { value: "", label: "System", icon: SystemIcon },
-    { value: "light", label: "Light", icon: SunIcon },
-    { value: "dark", label: "Dark", icon: MoonIcon },
+    { value: "", label: "Padrão do Sistema", icon: SystemIcon },
+    { value: "light", label: "Claro", icon: SunIcon },
+    { value: "dark", label: "Escuro", icon: MoonIcon },
   ];
 
   const currentScheme = getStoredScheme() || "";
